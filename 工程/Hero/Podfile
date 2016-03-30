@@ -1,0 +1,18 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, ‘7.1’
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+target 'Hero’ do
+pod 'AFNetworking'
+pod 'SDWebImage'
+pod 'MBProgressHUD'
+pod 'IHKeyboardAvoiding'
+pod 'DZNEmptyDataSet'
+pod 'JSONKit-NoWarning'
+pod 'MJRefresh'
+pod 'SWRevealViewController'
+pod 'MagicalRecord'
+pod 'WYPopoverController'
+pod 'JSBadgeView'
+end
+

@@ -1,0 +1,22 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, ‘6.0’
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+target 'Howare’ do
+pod 'AFNetworking'
+pod 'SDWebImage'
+pod 'MBProgressHUD'
+pod 'IHKeyboardAvoiding'
+pod 'DZNEmptyDataSet'
+pod 'JSONKit-NoWarning'
+pod 'MJRefresh'
+pod 'RBStoryboardLink'
+pod 'ReactiveCocoa'
+pod 'SWRevealViewController'
+pod 'FSCalendar'
+pod 'MagicalRecord'
+pod 'WYPopoverController'
+pod 'JSBadgeView'
+pod 'RHAddressBook'
+end
+

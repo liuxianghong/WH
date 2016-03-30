@@ -1,0 +1,6 @@
+framework module Pods_Howare {
+  umbrella header "Pods-Howare-umbrella.h"
+
+  export *
+  module * { export * }
+}
