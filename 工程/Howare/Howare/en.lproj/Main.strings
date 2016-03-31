@@ -1,3 +1,12 @@
 
-/* Class = "UINavigationItem"; title = "Root View Controller"; ObjectID = "wJ2-5q-loC"; */
-"wJ2-5q-loC.title" = "Root View Controller";
+/* Class = "UILabel"; text = "请将二维码置入取景框"; ObjectID = "ESN-zh-Nfm"; */
+"ESN-zh-Nfm.text" = "请将二维码置入取景框";
+
+/* Class = "UIButton"; normalTitle = "扫描二维码"; ObjectID = "Ed4-WB-wLh"; */
+"Ed4-WB-wLh.normalTitle" = "扫描二维码";
+
+/* Class = "UINavigationItem"; title = "扫吗绑定手表"; ObjectID = "yjd-am-h7E"; */
+"yjd-am-h7E.title" = "扫吗绑定手表";
+
+/* Class = "UIButton"; normalTitle = "123"; ObjectID = "zRG-XX-ddd"; */
+"zRG-XX-ddd.normalTitle" = "123";

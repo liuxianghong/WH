@@ -31,22 +31,16 @@
     
     UIInterfaceOrientation orientation = [[UIApplication sharedApplication] statusBarOrientation];
     if (orientation == UIInterfaceOrientationPortrait) {
-        NSLog(@"UIInterfaceOrientationPortrait");
         return AVCaptureVideoOrientationPortrait;
         
     } else if (orientation == UIInterfaceOrientationLandscapeLeft) {
-        NSLog(@"AVCaptureVideoOrientationLandscapeLeft");
         return AVCaptureVideoOrientationLandscapeLeft;
         
     } else if (orientation == UIInterfaceOrientationLandscapeRight){
-        NSLog(@"UIInterfaceOrientationLandscapeRight");
         return AVCaptureVideoOrientationLandscapeRight;
     } else if (orientation == UIInterfaceOrientationPortraitUpsideDown) {
-        
-        NSLog(@"UIInterfaceOrientationPortraitUpsideDown");
         return AVCaptureVideoOrientationPortraitUpsideDown;
     }
-    
     return AVCaptureVideoOrientationPortrait;
 }
 @end

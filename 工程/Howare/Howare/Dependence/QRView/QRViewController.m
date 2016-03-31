@@ -10,6 +10,7 @@
 #import <AVFoundation/AVFoundation.h>
 #import "QRView.h"
 #import "QRUtil.h"
+#import "QRDialogViewController.h"
 @interface QRViewController ()<AVCaptureMetadataOutputObjectsDelegate>
 
 @property (strong, nonatomic) AVCaptureDevice * device;
@@ -22,7 +23,9 @@
 @property (nonatomic ,weak) IBOutlet UILabel *helpLabel;
 @end
 
-@implementation QRViewController
+@implementation QRViewController{
+    WYPopoverController *popoverController;
+}
 
 #pragma mark - Life Cycle
 - (void)viewDidLoad {
@@ -68,10 +71,7 @@
     // Preview
     _preview =[AVCaptureVideoPreviewLayer layerWithSession:_session];
     _preview.videoGravity =AVLayerVideoGravityResize;
-    _preview.frame =[QRUtil screenBounds];
     [self.view.layer insertSublayer:_preview atIndex:0];
-    
-    _preview.connection.videoOrientation = [QRUtil videoOrientationFromCurrentDeviceOrientation];
     
     [_session startRunning];
 }
@@ -93,6 +93,11 @@
     [_session stopRunning];
 }
 
+-(void)viewWillLayoutSubviews{
+    [super viewWillLayoutSubviews];
+    [self updateLayout];
+}
+
 - (void)configUI {
     
     [self.view addSubview:self.qrView];
@@ -102,7 +107,9 @@
 
 - (void)updateLayout {
     
+    _preview.frame =[QRUtil screenBounds];
     
+    _preview.connection.videoOrientation = [QRUtil videoOrientationFromCurrentDeviceOrientation];
     
     _qrView.center = CGPointMake([QRUtil screenBounds].size.width / 2, [QRUtil screenBounds].size.height / 2);
     
@@ -126,7 +133,16 @@
 }
 
 -(IBAction)exitClick:(id)sender{
-    exit(0);
+    [self performSegueWithIdentifier:@"dialogIdentifier" sender:nil];
+//    UIViewController *dViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"dViewController"];
+//    dViewController.preferredContentSize = CGSizeMake(self.view.frame.size.width/2, self.view.frame.size.width/2);
+//    popoverController = [[WYPopoverController alloc] initWithContentViewController:dViewController];
+//    [popoverController presentPopoverAsDialogAnimated:YES ];
+    //[popoverController presentPopoverAsDialogAnimated:YES options:WYPopoverAnimationOptionScale];
+    //[popoverController presentPopoverFromRect:CGRectMake(0, 0, 100, 100) inView:self.view permittedArrowDirections:WYPopoverArrowDirectionAny animated:YES options:WYPopoverAnimationOptionScale completion:^{
+        
+    //}];
+    //exit(0);
 }
 
 #pragma mark QRViewDelegate
@@ -169,7 +185,13 @@
     return _qrView;
 }
 
-
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+    if ([segue.identifier isEqualToString:@"dialogIdentifier"]) {
+        
+    }
+}
 
 
 @end

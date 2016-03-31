@@ -7,3 +7,6 @@
 
 /* Class = "UINavigationItem"; title = "扫吗绑定手表"; ObjectID = "yjd-am-h7E"; */
 "yjd-am-h7E.title" = "扫吗绑定手表";
+
+/* Class = "UIButton"; normalTitle = "123"; ObjectID = "zRG-XX-ddd"; */
+"zRG-XX-ddd.normalTitle" = "123";
