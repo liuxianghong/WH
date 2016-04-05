@@ -1,12 +1,33 @@
 
+/* Class = "UIButton"; normalTitle = "取消"; ObjectID = "7Bd-17-XhV"; */
+"7Bd-17-XhV.normalTitle" = "取消";
+
+/* Class = "UIButton"; normalTitle = "  Add Device"; ObjectID = "8ci-4N-eJI"; */
+"8ci-4N-eJI.normalTitle" = "  Add Device";
+
+/* Class = "UIButton"; normalTitle = "Search"; ObjectID = "BxL-AQ-82u"; */
+"BxL-AQ-82u.normalTitle" = "Search";
+
 /* Class = "UILabel"; text = "请将二维码置入取景框"; ObjectID = "ESN-zh-Nfm"; */
 "ESN-zh-Nfm.text" = "请将二维码置入取景框";
 
 /* Class = "UIButton"; normalTitle = "扫描二维码"; ObjectID = "Ed4-WB-wLh"; */
 "Ed4-WB-wLh.normalTitle" = "扫描二维码";
 
+/* Class = "UILabel"; text = "设备名"; ObjectID = "Jnw-BP-9GC"; */
+"Jnw-BP-9GC.text" = "设备名";
+
+/* Class = "UILabel"; text = "确定退出系统？"; ObjectID = "R6u-kJ-tPq"; */
+"R6u-kJ-tPq.text" = "确定退出系统？";
+
+/* Class = "UIButton"; normalTitle = "配对"; ObjectID = "Zgo-eg-Xid"; */
+"Zgo-eg-Xid.normalTitle" = "配对";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "fIQ-MG-prM"; */
+"fIQ-MG-prM.text" = "Label";
+
 /* Class = "UINavigationItem"; title = "扫吗绑定手表"; ObjectID = "yjd-am-h7E"; */
 "yjd-am-h7E.title" = "扫吗绑定手表";
 
-/* Class = "UIButton"; normalTitle = "123"; ObjectID = "zRG-XX-ddd"; */
-"zRG-XX-ddd.normalTitle" = "123";
+/* Class = "UIButton"; normalTitle = "确定"; ObjectID = "zda-bL-WiQ"; */
+"zda-bL-WiQ.normalTitle" = "确定";

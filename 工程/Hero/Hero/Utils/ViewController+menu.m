@@ -17,6 +17,19 @@
         [self.revealViewController revealToggle:sender];
     }
 }
+
+-(IBAction)backClick:(id)sender
+{
+    if (self.revealViewController){
+        [self.revealViewController revealToggle:sender];
+    }
+}
+
+
+-(UIStatusBarStyle)preferredStatusBarStyle
+{
+    return UIStatusBarStyleLightContent;
+}
 @end
 
 

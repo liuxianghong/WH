@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D32A3BA11CAE445F000401C7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32A3BA01CAE445F000401C7 /* MainViewController.swift */; };
+		D32A3BA41CAE4EDA000401C7 /* LocalizedString.m in Sources */ = {isa = PBXBuildFile; fileRef = D32A3BA31CAE4EDA000401C7 /* LocalizedString.m */; };
+		D32A3BAA1CAE6B6B000401C7 /* Dialog.xib in Resources */ = {isa = PBXBuildFile; fileRef = D32A3BA81CAE6B6B000401C7 /* Dialog.xib */; };
+		D32A3BAC1CAE6B76000401C7 /* DialogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32A3BAB1CAE6B76000401C7 /* DialogViewController.swift */; };
+		D32A3BAE1CAE6BAC000401C7 /* Dialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32A3BAD1CAE6BAC000401C7 /* Dialog.swift */; };
+		D32A3BB11CAE72DF000401C7 /* BindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32A3BB01CAE72DF000401C7 /* BindViewController.swift */; };
+		D32A3BB51CAE86EB000401C7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32A3BB41CAE86EB000401C7 /* LoginViewController.swift */; };
 		D390A5F21CAA399900F3442B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D390A5F11CAA399900F3442B /* main.m */; };
 		D390A5F51CAA399900F3442B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D390A5F41CAA399900F3442B /* AppDelegate.m */; };
 		D390A5FB1CAA399900F3442B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D390A5F91CAA399900F3442B /* Main.storyboard */; };
@@ -22,6 +29,7 @@
 		D390A63D1CAA7E8A00F3442B /* UIColor+greenbaby.m in Sources */ = {isa = PBXBuildFile; fileRef = D390A6341CAA7E8A00F3442B /* UIColor+greenbaby.m */; };
 		D390A63E1CAA7E8A00F3442B /* UIImage+DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D390A6351CAA7E8A00F3442B /* UIImage+DrawView.swift */; };
 		D390A63F1CAA7E8A00F3442B /* ViewController+menu.m in Sources */ = {isa = PBXBuildFile; fileRef = D390A6371CAA7E8A00F3442B /* ViewController+menu.m */; };
+		D39B7EBB1CAF6EFD00C45682 /* RegistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39B7EBA1CAF6EFD00C45682 /* RegistViewController.swift */; };
 		EAA542FD223FFFA0D3D9AE18 /* Pods_Hero.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7281646D854D57B8C3A983AE /* Pods_Hero.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +37,14 @@
 		4BFCA807F70E3E4FD2097DA5 /* Pods-Hero.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hero.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hero/Pods-Hero.debug.xcconfig"; sourceTree = "<group>"; };
 		7281646D854D57B8C3A983AE /* Pods_Hero.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hero.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		864EFA313FD5915028D0ED5D /* Pods-Hero.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hero.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hero/Pods-Hero.release.xcconfig"; sourceTree = "<group>"; };
+		D32A3BA01CAE445F000401C7 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		D32A3BA21CAE4EDA000401C7 /* LocalizedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalizedString.h; sourceTree = "<group>"; };
+		D32A3BA31CAE4EDA000401C7 /* LocalizedString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalizedString.m; sourceTree = "<group>"; };
+		D32A3BA81CAE6B6B000401C7 /* Dialog.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Dialog.xib; sourceTree = "<group>"; };
+		D32A3BAB1CAE6B76000401C7 /* DialogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DialogViewController.swift; sourceTree = "<group>"; };
+		D32A3BAD1CAE6BAC000401C7 /* Dialog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dialog.swift; sourceTree = "<group>"; };
+		D32A3BB01CAE72DF000401C7 /* BindViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BindViewController.swift; sourceTree = "<group>"; };
+		D32A3BB41CAE86EB000401C7 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D390A5ED1CAA399900F3442B /* Hero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hero.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D390A5F11CAA399900F3442B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D390A5F31CAA399900F3442B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -52,6 +68,7 @@
 		D390A6351CAA7E8A00F3442B /* UIImage+DrawView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+DrawView.swift"; sourceTree = "<group>"; };
 		D390A6361CAA7E8A00F3442B /* ViewController+menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+menu.h"; sourceTree = "<group>"; };
 		D390A6371CAA7E8A00F3442B /* ViewController+menu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+menu.m"; sourceTree = "<group>"; };
+		D39B7EBA1CAF6EFD00C45682 /* RegistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +100,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D32A3BA51CAE6B6B000401C7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D32A3BA81CAE6B6B000401C7 /* Dialog.xib */,
+				D32A3BAD1CAE6BAC000401C7 /* Dialog.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D32A3BAF1CAE72CE000401C7 /* Bind */ = {
+			isa = PBXGroup;
+			children = (
+				D32A3BB01CAE72DF000401C7 /* BindViewController.swift */,
+				D32A3BB41CAE86EB000401C7 /* LoginViewController.swift */,
+				D39B7EBA1CAF6EFD00C45682 /* RegistViewController.swift */,
+			);
+			path = Bind;
+			sourceTree = "<group>";
+		};
 		D390A5E41CAA399900F3442B = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +143,7 @@
 		D390A5EF1CAA399900F3442B /* Hero */ = {
 			isa = PBXGroup;
 			children = (
+				D32A3BA51CAE6B6B000401C7 /* View */,
 				D390A62B1CAA7E8A00F3442B /* Utils */,
 				D390A6221CAA6BF900F3442B /* ViewController */,
 				D390A5F01CAA399900F3442B /* Supporting Files */,
@@ -129,8 +166,11 @@
 		D390A6221CAA6BF900F3442B /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				D32A3BAF1CAE72CE000401C7 /* Bind */,
+				D32A3BAB1CAE6B76000401C7 /* DialogViewController.swift */,
 				D390A6271CAA6C2800F3442B /* HomeTableViewController.swift */,
 				D390A6291CAA7A4A00F3442B /* MenuTableViewController.swift */,
+				D32A3BA01CAE445F000401C7 /* MainViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -138,6 +178,8 @@
 		D390A62B1CAA7E8A00F3442B /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				D32A3BA21CAE4EDA000401C7 /* LocalizedString.h */,
+				D32A3BA31CAE4EDA000401C7 /* LocalizedString.m */,
 				D390A62C1CAA7E8A00F3442B /* Array+Extenstion.swift */,
 				D390A62D1CAA7E8A00F3442B /* EasyOptionalUnwrapping.swift */,
 				D390A62E1CAA7E8A00F3442B /* KeyInfo.h */,
@@ -217,6 +259,7 @@
 				D390A6001CAA399900F3442B /* LaunchScreen.storyboard in Resources */,
 				D390A5FD1CAA399900F3442B /* Assets.xcassets in Resources */,
 				D390A5FB1CAA399900F3442B /* Main.storyboard in Resources */,
+				D32A3BAA1CAE6B6B000401C7 /* Dialog.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,8 +318,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D32A3BB11CAE72DF000401C7 /* BindViewController.swift in Sources */,
 				D390A62A1CAA7A4B00F3442B /* MenuTableViewController.swift in Sources */,
+				D32A3BA11CAE445F000401C7 /* MainViewController.swift in Sources */,
 				D390A6281CAA6C2800F3442B /* HomeTableViewController.swift in Sources */,
+				D32A3BB51CAE86EB000401C7 /* LoginViewController.swift in Sources */,
+				D32A3BAE1CAE6BAC000401C7 /* Dialog.swift in Sources */,
+				D32A3BAC1CAE6B76000401C7 /* DialogViewController.swift in Sources */,
 				D390A63E1CAA7E8A00F3442B /* UIImage+DrawView.swift in Sources */,
 				D390A63F1CAA7E8A00F3442B /* ViewController+menu.m in Sources */,
 				D390A6391CAA7E8A00F3442B /* EasyOptionalUnwrapping.swift in Sources */,
@@ -284,8 +332,10 @@
 				D390A6381CAA7E8A00F3442B /* Array+Extenstion.swift in Sources */,
 				D390A63B1CAA7E8A00F3442B /* NSString+scisky.m in Sources */,
 				D390A63C1CAA7E8A00F3442B /* SwiftyJSON.swift in Sources */,
+				D39B7EBB1CAF6EFD00C45682 /* RegistViewController.swift in Sources */,
 				D390A63A1CAA7E8A00F3442B /* KeyInfo.m in Sources */,
 				D390A5F21CAA399900F3442B /* main.m in Sources */,
+				D32A3BA41CAE4EDA000401C7 /* LocalizedString.m in Sources */,
 				D390A63D1CAA7E8A00F3442B /* UIColor+greenbaby.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -404,11 +454,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Hero/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bugong.Hero;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Hero/ViewController/Hero-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -419,10 +471,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Hero/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bugong.Hero;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Hero/ViewController/Hero-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

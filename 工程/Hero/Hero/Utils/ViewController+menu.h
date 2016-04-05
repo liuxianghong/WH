@@ -10,8 +10,8 @@
 
 @interface UIViewController (menu)
 -(IBAction)menuAciton:(id)sender;
+-(IBAction)backClick:(id)sender;
 @end
 
 @interface UINavigationController (Light)
--(UIStatusBarStyle)preferredStatusBarStyle;
 @end

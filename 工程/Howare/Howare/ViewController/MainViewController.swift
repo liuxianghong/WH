@@ -10,6 +10,8 @@ import UIKit
 
 class MainViewController: UINavigationController {
 
+    var first = true
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -27,18 +29,23 @@ class MainViewController: UINavigationController {
 
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
-        var showGude = true
-        if let gudeVerson = NSUserDefaults.standardUserDefaults().objectForKey("gude") as? String{
-            let gude = NSBundle.mainBundle().objectForInfoDictionaryKey(kCFBundleVersionKey as String) as! String
-            if gudeVerson == gude{
-                showGude = false
-            }
+        if first {
+            self.performSegueWithIdentifier("searchIndentifier", sender: nil)
+            first = false
         }
-        showGude = true
-        if showGude{
-            self.performSegueWithIdentifier("guideIdentifier", sender: nil)
-            return;
-        }
+        
+//        var showGude = true
+//        if let gudeVerson = NSUserDefaults.standardUserDefaults().objectForKey("gude") as? String{
+//            let gude = NSBundle.mainBundle().objectForInfoDictionaryKey(kCFBundleVersionKey as String) as! String
+//            if gudeVerson == gude{
+//                showGude = false
+//            }
+//        }
+//        showGude = true
+//        if showGude{
+//            self.performSegueWithIdentifier("guideIdentifier", sender: nil)
+//            return;
+//        }
     }
     /*
     // MARK: - Navigation

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Dialog" customModule="Hero" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="m1J-Qx-iCf"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="300"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hXc-OO-BVD">
+                    <rect key="frame" x="151" y="260" width="149" height="40"/>
+                    <state key="normal" title="取消">
+                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bH5-fq-Xl1">
+                    <rect key="frame" x="0.0" y="260" width="150" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="gc1-EV-ERl"/>
+                    </constraints>
+                    <state key="normal" title="确定">
+                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ws4-al-EdW">
+                    <rect key="frame" x="0.0" y="259" width="300" height="1"/>
+                    <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="0.5" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="eq2-tF-v3L"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eDz-nE-yr6">
+                    <rect key="frame" x="150" y="260" width="1" height="40"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="0.5" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="1" id="0pX-45-KMi"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="确定退出系统？" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5gp-04-SW3">
+                    <rect key="frame" x="91" y="120" width="119" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="eDz-nE-yr6" firstAttribute="top" secondItem="Ws4-al-EdW" secondAttribute="bottom" id="CE9-Ls-sVb"/>
+                <constraint firstAttribute="bottom" secondItem="hXc-OO-BVD" secondAttribute="bottom" id="DXf-45-ZAs"/>
+                <constraint firstItem="5gp-04-SW3" firstAttribute="centerX" secondItem="Ws4-al-EdW" secondAttribute="centerX" id="Fyk-AR-jUf"/>
+                <constraint firstItem="Ws4-al-EdW" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="KIy-6z-2Xn"/>
+                <constraint firstItem="hXc-OO-BVD" firstAttribute="width" secondItem="bH5-fq-Xl1" secondAttribute="width" id="NX4-lr-Mqm"/>
+                <constraint firstItem="hXc-OO-BVD" firstAttribute="top" secondItem="Ws4-al-EdW" secondAttribute="bottom" id="O49-x0-3b8"/>
+                <constraint firstItem="5gp-04-SW3" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="-20" id="ShK-Hc-lls"/>
+                <constraint firstAttribute="trailing" secondItem="Ws4-al-EdW" secondAttribute="trailing" id="XzC-1v-Hf6"/>
+                <constraint firstAttribute="trailing" secondItem="hXc-OO-BVD" secondAttribute="trailing" id="Yeq-9t-L4k"/>
+                <constraint firstAttribute="bottom" secondItem="bH5-fq-Xl1" secondAttribute="bottom" id="jHq-WJ-lsi"/>
+                <constraint firstItem="bH5-fq-Xl1" firstAttribute="top" secondItem="Ws4-al-EdW" secondAttribute="bottom" id="leC-Lr-WEA"/>
+                <constraint firstAttribute="bottom" secondItem="eDz-nE-yr6" secondAttribute="bottom" id="nN2-nE-eih"/>
+                <constraint firstItem="hXc-OO-BVD" firstAttribute="leading" secondItem="eDz-nE-yr6" secondAttribute="trailing" id="t5e-DE-NPR"/>
+                <constraint firstItem="bH5-fq-Xl1" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="vxX-YC-AYU"/>
+                <constraint firstItem="eDz-nE-yr6" firstAttribute="leading" secondItem="bH5-fq-Xl1" secondAttribute="trailing" id="y3f-ni-CbP"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="279" y="291"/>
+        </view>
+    </objects>
+</document>

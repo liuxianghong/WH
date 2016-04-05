@@ -16,7 +16,21 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="启动页" translatesAutoresizingMaskIntoConstraints="NO" id="M2k-Ht-dqz">
+                                <rect key="frame" x="218" y="218" width="164" height="164"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="底部信息" translatesAutoresizingMaskIntoConstraints="NO" id="Blz-b1-4om">
+                                <rect key="frame" x="201" y="559" width="199" height="21"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="M2k-Ht-dqz" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="7mc-gd-E0a"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="Blz-b1-4om" secondAttribute="bottom" constant="20" id="8eS-mk-x3a"/>
+                            <constraint firstItem="M2k-Ht-dqz" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="GMD-Gg-v2u"/>
+                            <constraint firstItem="Blz-b1-4om" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="LvI-v7-Olo"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -24,4 +38,8 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="启动页" width="164" height="164"/>
+        <image name="底部信息" width="199" height="21"/>
+    </resources>
 </document>

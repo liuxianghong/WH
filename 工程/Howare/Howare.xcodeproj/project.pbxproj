@@ -13,10 +13,16 @@
 		D300374A1CABF3B30029B9C0 /* qr_scan_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D30037491CABF3B30029B9C0 /* qr_scan_line@2x.png */; };
 		D300374F1CAC06C20029B9C0 /* UIView+AHKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D300374E1CAC06C20029B9C0 /* UIView+AHKit.m */; };
 		D30037531CAC0C370029B9C0 /* LocalizedString.m in Sources */ = {isa = PBXBuildFile; fileRef = D30037521CAC0C370029B9C0 /* LocalizedString.m */; };
-		D30037571CAC0FE30029B9C0 /* Dialog.m in Sources */ = {isa = PBXBuildFile; fileRef = D30037561CAC0FE30029B9C0 /* Dialog.m */; };
-		D300375B1CAC106F0029B9C0 /* Dialog.xib in Resources */ = {isa = PBXBuildFile; fileRef = D300375A1CAC106F0029B9C0 /* Dialog.xib */; };
 		D300375D1CACC1CE0029B9C0 /* DialogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D300375C1CACC1CE0029B9C0 /* DialogViewController.swift */; };
 		D30037601CACDA800029B9C0 /* QRDialogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D300375F1CACDA800029B9C0 /* QRDialogViewController.m */; };
+		D37BEB651CB3CB030057BD3E /* 背景2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D37BEB631CB3CB030057BD3E /* 背景2@2x.png */; };
+		D37BEB661CB3CB030057BD3E /* 背景2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D37BEB641CB3CB030057BD3E /* 背景2@3x.png */; };
+		D37BEB6F1CB3E0810057BD3E /* Dialog.m in Sources */ = {isa = PBXBuildFile; fileRef = D37BEB6D1CB3E0810057BD3E /* Dialog.m */; };
+		D37BEB701CB3E0810057BD3E /* Dialog.xib in Resources */ = {isa = PBXBuildFile; fileRef = D37BEB6E1CB3E0810057BD3E /* Dialog.xib */; };
+		D37BEB741CB3E0A60057BD3E /* HomeSetTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37BEB721CB3E0A60057BD3E /* HomeSetTableViewController.swift */; };
+		D37BEB751CB3E0A60057BD3E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37BEB731CB3E0A60057BD3E /* HomeViewController.swift */; };
+		D37BEB771CB3E0E30057BD3E /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37BEB761CB3E0E30057BD3E /* HomeTableViewCell.swift */; };
+		D37BEB791CB3E1460057BD3E /* HomeSetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37BEB781CB3E1460057BD3E /* HomeSetTableViewCell.swift */; };
 		D390A5CF1CAA392C00F3442B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D390A5CE1CAA392C00F3442B /* main.m */; };
 		D390A5D21CAA392C00F3442B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D390A5D11CAA392C00F3442B /* AppDelegate.m */; };
 		D390A5D51CAA392C00F3442B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D390A5D41CAA392C00F3442B /* ViewController.m */; };
@@ -24,6 +30,41 @@
 		D390A5DA1CAA392C00F3442B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D390A5D91CAA392C00F3442B /* Assets.xcassets */; };
 		D390A5DD1CAA392C00F3442B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D390A5DB1CAA392C00F3442B /* LaunchScreen.storyboard */; };
 		D390A6201CAA646600F3442B /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D390A61F1CAA646600F3442B /* CoreTelephony.framework */; };
+		D39B7EDF1CB35DD600C45682 /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D39B7EBF1CB35DD600C45682 /* logo@2x.png */; };
+		D39B7EE01CB35DD600C45682 /* logo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D39B7EC01CB35DD600C45682 /* logo@3x.png */; };
+		D39B7EE11CB35DD600C45682 /* 光@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D39B7EC11CB35DD600C45682 /* 光@2x.png */; };
+		D39B7EE21CB35DD600C45682 /* 光@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D39B7EC21CB35DD600C45682 /* 光@3x.png */; };
+		D39B7EE31CB35DD600C45682 /* 动画1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D39B7EC31CB35DD600C45682 /* 动画1@2x.png */; };
+		D39B7EE41CB35DD600C45682 /* 动画1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D39B7EC41CB35DD600C45682 /* 动画1@3x.png */; };
+		D39B7EE51CB35DD600C45682 /* 成功@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D39B7EC51CB35DD600C45682 /* 成功@2x.png */; };
+		D39B7EE61CB35DD600C45682 /* 成功@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D39B7EC61CB35DD600C45682 /* 成功@3x.png */; };
+		D39B7EE71CB35DD600C45682 /* 按钮-按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D39B7EC71CB35DD600C45682 /* 按钮-按下@2x.png */; };
+		D39B7EE81CB35DD600C45682 /* 按钮-按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D39B7EC81CB35DD600C45682 /* 按钮-按下@3x.png */; };
+		D39B7EE91CB35DD600C45682 /* 按钮@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D39B7EC91CB35DD600C45682 /* 按钮@2x.png */; };
+		D39B7EEA1CB35DD600C45682 /* 按钮@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D39B7ECA1CB35DD600C45682 /* 按钮@3x.png */; };
+		D39B7EEB1CB35DD600C45682 /* 按钮底部@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D39B7ECB1CB35DD600C45682 /* 按钮底部@2x.png */; };
+		D39B7EEC1CB35DD600C45682 /* 按钮底部@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D39B7ECC1CB35DD600C45682 /* 按钮底部@3x.png */; };
+		D39B7EF31CB35DD600C45682 /* 设备@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D39B7ED31CB35DD600C45682 /* 设备@2x.png */; };
+		D39B7EF41CB35DD600C45682 /* 设备@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D39B7ED41CB35DD600C45682 /* 设备@3x.png */; };
+		D39B7EF51CB35DD600C45682 /* 设备大@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D39B7ED51CB35DD600C45682 /* 设备大@2x.png */; };
+		D39B7EF61CB35DD600C45682 /* 设备大@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D39B7ED61CB35DD600C45682 /* 设备大@3x.png */; };
+		D39B7EF91CB35DD600C45682 /* 进入@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D39B7ED91CB35DD600C45682 /* 进入@2x.png */; };
+		D39B7EFA1CB35DD600C45682 /* 进入@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D39B7EDA1CB35DD600C45682 /* 进入@3x.png */; };
+		D39B7EFB1CB35DD600C45682 /* 通知@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D39B7EDB1CB35DD600C45682 /* 通知@2x.png */; };
+		D39B7EFC1CB35DD600C45682 /* 通知@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D39B7EDC1CB35DD600C45682 /* 通知@3x.png */; };
+		D39B7EFD1CB35DD600C45682 /* 雷达@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D39B7EDD1CB35DD600C45682 /* 雷达@2x.png */; };
+		D39B7EFE1CB35DD600C45682 /* 雷达@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D39B7EDE1CB35DD600C45682 /* 雷达@3x.png */; };
+		D39B7F011CB360C900C45682 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39B7F001CB360C900C45682 /* SearchViewController.swift */; };
+		D39B7F041CB3776400C45682 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D39B7F021CB3776400C45682 /* icon@2x.png */; };
+		D39B7F051CB3776400C45682 /* icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D39B7F031CB3776400C45682 /* icon@3x.png */; };
+		D39B7F0A1CB3777100C45682 /* 背景b@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D39B7F061CB3777100C45682 /* 背景b@2x.png */; };
+		D39B7F0B1CB3777100C45682 /* 背景b@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D39B7F071CB3777100C45682 /* 背景b@3x.png */; };
+		D39B7F0C1CB3777100C45682 /* guang@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D39B7F081CB3777100C45682 /* guang@2x.png */; };
+		D39B7F0D1CB3777100C45682 /* guang@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D39B7F091CB3777100C45682 /* guang@3x.png */; };
+		D39B7F121CB3820000C45682 /* 按@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D39B7F0E1CB3820000C45682 /* 按@2x.png */; };
+		D39B7F131CB3820000C45682 /* 按@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D39B7F0F1CB3820000C45682 /* 按@3x.png */; };
+		D39B7F141CB3820000C45682 /* 按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D39B7F101CB3820000C45682 /* 按下@2x.png */; };
+		D39B7F151CB3820000C45682 /* 按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D39B7F111CB3820000C45682 /* 按下@3x.png */; };
 		D3D7EC7F1CABAEFE0067C6A6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D7EC7E1CABAEFE0067C6A6 /* MainViewController.swift */; };
 		D3D7EC811CABAF660067C6A6 /* GuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D7EC801CABAF660067C6A6 /* GuideViewController.swift */; };
 		D3D7EC901CABC7000067C6A6 /* QRUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D7EC891CABC7000067C6A6 /* QRUtil.m */; };
@@ -46,26 +87,32 @@
 		D30037271CABED610029B9C0 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		D30037291CABED7B0029B9C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D300372B1CABEE760029B9C0 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
-		D30037361CABEF360029B9C0 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
 		D300373A1CABF01F0029B9C0 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		D300373C1CABF0250029B9C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D300373D1CABF0260029B9C0 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		D30037401CABF10E0029B9C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D30037421CABF11F0029B9C0 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		D30037491CABF3B30029B9C0 /* qr_scan_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qr_scan_line@2x.png"; sourceTree = "<group>"; };
-		D300374B1CAC04C60029B9C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		D300374C1CAC05E80029B9C0 /* Howare-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Howare-Prefix.pch"; sourceTree = "<group>"; };
 		D300374D1CAC06C20029B9C0 /* UIView+AHKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AHKit.h"; sourceTree = "<group>"; };
 		D300374E1CAC06C20029B9C0 /* UIView+AHKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AHKit.m"; sourceTree = "<group>"; };
 		D30037501CAC0A760029B9C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D30037511CAC0C370029B9C0 /* LocalizedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalizedString.h; sourceTree = "<group>"; };
 		D30037521CAC0C370029B9C0 /* LocalizedString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalizedString.m; sourceTree = "<group>"; };
-		D30037551CAC0FE30029B9C0 /* Dialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dialog.h; sourceTree = "<group>"; };
-		D30037561CAC0FE30029B9C0 /* Dialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dialog.m; sourceTree = "<group>"; };
-		D300375A1CAC106F0029B9C0 /* Dialog.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Dialog.xib; sourceTree = "<group>"; };
 		D300375C1CACC1CE0029B9C0 /* DialogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DialogViewController.swift; sourceTree = "<group>"; };
 		D300375E1CACDA800029B9C0 /* QRDialogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRDialogViewController.h; sourceTree = "<group>"; };
 		D300375F1CACDA800029B9C0 /* QRDialogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRDialogViewController.m; sourceTree = "<group>"; };
+		D37BEB5E1CB388620057BD3E /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
+		D37BEB601CB388660057BD3E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		D37BEB621CB388680057BD3E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		D37BEB631CB3CB030057BD3E /* 背景2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "背景2@2x.png"; sourceTree = "<group>"; };
+		D37BEB641CB3CB030057BD3E /* 背景2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "背景2@3x.png"; sourceTree = "<group>"; };
+		D37BEB6C1CB3E0810057BD3E /* Dialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dialog.h; sourceTree = "<group>"; };
+		D37BEB6D1CB3E0810057BD3E /* Dialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dialog.m; sourceTree = "<group>"; };
+		D37BEB6E1CB3E0810057BD3E /* Dialog.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Dialog.xib; sourceTree = "<group>"; };
+		D37BEB721CB3E0A60057BD3E /* HomeSetTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeSetTableViewController.swift; sourceTree = "<group>"; };
+		D37BEB731CB3E0A60057BD3E /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D37BEB761CB3E0E30057BD3E /* HomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		D37BEB781CB3E1460057BD3E /* HomeSetTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeSetTableViewCell.swift; sourceTree = "<group>"; };
 		D390A5CA1CAA392C00F3442B /* Howare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Howare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D390A5CE1CAA392C00F3442B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D390A5D01CAA392C00F3442B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -74,6 +121,41 @@
 		D390A5D41CAA392C00F3442B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D390A5D91CAA392C00F3442B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Howare/Assets.xcassets; sourceTree = "<group>"; };
 		D390A61F1CAA646600F3442B /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		D39B7EBF1CB35DD600C45682 /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
+		D39B7EC01CB35DD600C45682 /* logo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@3x.png"; sourceTree = "<group>"; };
+		D39B7EC11CB35DD600C45682 /* 光@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "光@2x.png"; sourceTree = "<group>"; };
+		D39B7EC21CB35DD600C45682 /* 光@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "光@3x.png"; sourceTree = "<group>"; };
+		D39B7EC31CB35DD600C45682 /* 动画1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "动画1@2x.png"; sourceTree = "<group>"; };
+		D39B7EC41CB35DD600C45682 /* 动画1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "动画1@3x.png"; sourceTree = "<group>"; };
+		D39B7EC51CB35DD600C45682 /* 成功@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "成功@2x.png"; sourceTree = "<group>"; };
+		D39B7EC61CB35DD600C45682 /* 成功@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "成功@3x.png"; sourceTree = "<group>"; };
+		D39B7EC71CB35DD600C45682 /* 按钮-按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "按钮-按下@2x.png"; sourceTree = "<group>"; };
+		D39B7EC81CB35DD600C45682 /* 按钮-按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "按钮-按下@3x.png"; sourceTree = "<group>"; };
+		D39B7EC91CB35DD600C45682 /* 按钮@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "按钮@2x.png"; sourceTree = "<group>"; };
+		D39B7ECA1CB35DD600C45682 /* 按钮@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "按钮@3x.png"; sourceTree = "<group>"; };
+		D39B7ECB1CB35DD600C45682 /* 按钮底部@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "按钮底部@2x.png"; sourceTree = "<group>"; };
+		D39B7ECC1CB35DD600C45682 /* 按钮底部@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "按钮底部@3x.png"; sourceTree = "<group>"; };
+		D39B7ED31CB35DD600C45682 /* 设备@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "设备@2x.png"; sourceTree = "<group>"; };
+		D39B7ED41CB35DD600C45682 /* 设备@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "设备@3x.png"; sourceTree = "<group>"; };
+		D39B7ED51CB35DD600C45682 /* 设备大@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "设备大@2x.png"; sourceTree = "<group>"; };
+		D39B7ED61CB35DD600C45682 /* 设备大@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "设备大@3x.png"; sourceTree = "<group>"; };
+		D39B7ED91CB35DD600C45682 /* 进入@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "进入@2x.png"; sourceTree = "<group>"; };
+		D39B7EDA1CB35DD600C45682 /* 进入@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "进入@3x.png"; sourceTree = "<group>"; };
+		D39B7EDB1CB35DD600C45682 /* 通知@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "通知@2x.png"; sourceTree = "<group>"; };
+		D39B7EDC1CB35DD600C45682 /* 通知@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "通知@3x.png"; sourceTree = "<group>"; };
+		D39B7EDD1CB35DD600C45682 /* 雷达@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "雷达@2x.png"; sourceTree = "<group>"; };
+		D39B7EDE1CB35DD600C45682 /* 雷达@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "雷达@3x.png"; sourceTree = "<group>"; };
+		D39B7F001CB360C900C45682 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		D39B7F021CB3776400C45682 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		D39B7F031CB3776400C45682 /* icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@3x.png"; sourceTree = "<group>"; };
+		D39B7F061CB3777100C45682 /* 背景b@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "背景b@2x.png"; sourceTree = "<group>"; };
+		D39B7F071CB3777100C45682 /* 背景b@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "背景b@3x.png"; sourceTree = "<group>"; };
+		D39B7F081CB3777100C45682 /* guang@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guang@2x.png"; sourceTree = "<group>"; };
+		D39B7F091CB3777100C45682 /* guang@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guang@3x.png"; sourceTree = "<group>"; };
+		D39B7F0E1CB3820000C45682 /* 按@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "按@2x.png"; sourceTree = "<group>"; };
+		D39B7F0F1CB3820000C45682 /* 按@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "按@3x.png"; sourceTree = "<group>"; };
+		D39B7F101CB3820000C45682 /* 按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "按下@2x.png"; sourceTree = "<group>"; };
+		D39B7F111CB3820000C45682 /* 按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "按下@3x.png"; sourceTree = "<group>"; };
 		D3D7EC7D1CABAEFE0067C6A6 /* Howare-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Howare-Bridging-Header.h"; path = "Howare/ViewController/Howare-Bridging-Header.h"; sourceTree = "<group>"; };
 		D3D7EC7E1CABAEFE0067C6A6 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		D3D7EC801CABAF660067C6A6 /* GuideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuideViewController.swift; sourceTree = "<group>"; };
@@ -121,14 +203,25 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		D30037541CAC0F820029B9C0 /* View */ = {
+		D37BEB6B1CB3E0810057BD3E /* View */ = {
 			isa = PBXGroup;
 			children = (
-				D30037551CAC0FE30029B9C0 /* Dialog.h */,
-				D30037561CAC0FE30029B9C0 /* Dialog.m */,
-				D300375A1CAC106F0029B9C0 /* Dialog.xib */,
+				D37BEB6C1CB3E0810057BD3E /* Dialog.h */,
+				D37BEB6D1CB3E0810057BD3E /* Dialog.m */,
+				D37BEB6E1CB3E0810057BD3E /* Dialog.xib */,
+				D37BEB761CB3E0E30057BD3E /* HomeTableViewCell.swift */,
+				D37BEB781CB3E1460057BD3E /* HomeSetTableViewCell.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		D37BEB711CB3E0A60057BD3E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D37BEB721CB3E0A60057BD3E /* HomeSetTableViewController.swift */,
+				D37BEB731CB3E0A60057BD3E /* HomeViewController.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 		D390A5C11CAA392C00F3442B = {
@@ -156,9 +249,9 @@
 		D390A5CC1CAA392C00F3442B /* Howare */ = {
 			isa = PBXGroup;
 			children = (
-				D30037541CAC0F820029B9C0 /* View */,
 				D3D7EC961CABD4AA0067C6A6 /* Utils */,
 				D3D7EC821CABC7000067C6A6 /* Dependence */,
+				D37BEB6B1CB3E0810057BD3E /* View */,
 				D3D7EC7A1CABA5370067C6A6 /* ViewController */,
 				D390A5D31CAA392C00F3442B /* ViewController.h */,
 				D390A5D41CAA392C00F3442B /* ViewController.m */,
@@ -192,9 +285,62 @@
 			path = Howare/Frameworks;
 			sourceTree = "<group>";
 		};
+		D39B7EBE1CB35DD600C45682 /* 搜索 */ = {
+			isa = PBXGroup;
+			children = (
+				D37BEB631CB3CB030057BD3E /* 背景2@2x.png */,
+				D37BEB641CB3CB030057BD3E /* 背景2@3x.png */,
+				D39B7F061CB3777100C45682 /* 背景b@2x.png */,
+				D39B7F071CB3777100C45682 /* 背景b@3x.png */,
+				D39B7F081CB3777100C45682 /* guang@2x.png */,
+				D39B7F091CB3777100C45682 /* guang@3x.png */,
+				D39B7F021CB3776400C45682 /* icon@2x.png */,
+				D39B7F031CB3776400C45682 /* icon@3x.png */,
+				D39B7EBF1CB35DD600C45682 /* logo@2x.png */,
+				D39B7EC01CB35DD600C45682 /* logo@3x.png */,
+				D39B7EC11CB35DD600C45682 /* 光@2x.png */,
+				D39B7EC21CB35DD600C45682 /* 光@3x.png */,
+				D39B7F0E1CB3820000C45682 /* 按@2x.png */,
+				D39B7F0F1CB3820000C45682 /* 按@3x.png */,
+				D39B7F101CB3820000C45682 /* 按下@2x.png */,
+				D39B7F111CB3820000C45682 /* 按下@3x.png */,
+				D39B7EC31CB35DD600C45682 /* 动画1@2x.png */,
+				D39B7EC41CB35DD600C45682 /* 动画1@3x.png */,
+				D39B7EC51CB35DD600C45682 /* 成功@2x.png */,
+				D39B7EC61CB35DD600C45682 /* 成功@3x.png */,
+				D39B7EC71CB35DD600C45682 /* 按钮-按下@2x.png */,
+				D39B7EC81CB35DD600C45682 /* 按钮-按下@3x.png */,
+				D39B7EC91CB35DD600C45682 /* 按钮@2x.png */,
+				D39B7ECA1CB35DD600C45682 /* 按钮@3x.png */,
+				D39B7ECB1CB35DD600C45682 /* 按钮底部@2x.png */,
+				D39B7ECC1CB35DD600C45682 /* 按钮底部@3x.png */,
+				D39B7ED31CB35DD600C45682 /* 设备@2x.png */,
+				D39B7ED41CB35DD600C45682 /* 设备@3x.png */,
+				D39B7ED51CB35DD600C45682 /* 设备大@2x.png */,
+				D39B7ED61CB35DD600C45682 /* 设备大@3x.png */,
+				D39B7ED91CB35DD600C45682 /* 进入@2x.png */,
+				D39B7EDA1CB35DD600C45682 /* 进入@3x.png */,
+				D39B7EDB1CB35DD600C45682 /* 通知@2x.png */,
+				D39B7EDC1CB35DD600C45682 /* 通知@3x.png */,
+				D39B7EDD1CB35DD600C45682 /* 雷达@2x.png */,
+				D39B7EDE1CB35DD600C45682 /* 雷达@3x.png */,
+			);
+			path = "搜索";
+			sourceTree = "<group>";
+		};
+		D39B7EFF1CB360AD00C45682 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				D39B7F001CB360C900C45682 /* SearchViewController.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
 		D3D7EC7A1CABA5370067C6A6 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				D37BEB711CB3E0A60057BD3E /* Home */,
+				D39B7EFF1CB360AD00C45682 /* Search */,
 				D3D7EC7E1CABAEFE0067C6A6 /* MainViewController.swift */,
 				D3D7EC801CABAF660067C6A6 /* GuideViewController.swift */,
 				D300375C1CACC1CE0029B9C0 /* DialogViewController.swift */,
@@ -228,6 +374,7 @@
 		D3D7EC931CABCF5F0067C6A6 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				D39B7EBE1CB35DD600C45682 /* 搜索 */,
 				D30037491CABF3B30029B9C0 /* qr_scan_line@2x.png */,
 			);
 			name = Resource;
@@ -319,14 +466,50 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D39B7EE71CB35DD600C45682 /* 按钮-按下@2x.png in Resources */,
+				D39B7EF31CB35DD600C45682 /* 设备@2x.png in Resources */,
 				D390A5DD1CAA392C00F3442B /* LaunchScreen.storyboard in Resources */,
+				D39B7EEA1CB35DD600C45682 /* 按钮@3x.png in Resources */,
+				D37BEB651CB3CB030057BD3E /* 背景2@2x.png in Resources */,
+				D39B7EE91CB35DD600C45682 /* 按钮@2x.png in Resources */,
+				D39B7F051CB3776400C45682 /* icon@3x.png in Resources */,
+				D39B7EF41CB35DD600C45682 /* 设备@3x.png in Resources */,
 				D30037261CABED610029B9C0 /* InfoPlist.strings in Resources */,
+				D39B7EFE1CB35DD600C45682 /* 雷达@3x.png in Resources */,
 				D390A5DA1CAA392C00F3442B /* Assets.xcassets in Resources */,
-				D300375B1CAC106F0029B9C0 /* Dialog.xib in Resources */,
+				D39B7F131CB3820000C45682 /* 按@3x.png in Resources */,
+				D39B7EF51CB35DD600C45682 /* 设备大@2x.png in Resources */,
+				D39B7EFB1CB35DD600C45682 /* 通知@2x.png in Resources */,
+				D37BEB661CB3CB030057BD3E /* 背景2@3x.png in Resources */,
+				D39B7EE21CB35DD600C45682 /* 光@3x.png in Resources */,
+				D39B7F0D1CB3777100C45682 /* guang@3x.png in Resources */,
+				D37BEB701CB3E0810057BD3E /* Dialog.xib in Resources */,
+				D39B7F041CB3776400C45682 /* icon@2x.png in Resources */,
+				D39B7EEC1CB35DD600C45682 /* 按钮底部@3x.png in Resources */,
+				D39B7EE81CB35DD600C45682 /* 按钮-按下@3x.png in Resources */,
+				D39B7F0C1CB3777100C45682 /* guang@2x.png in Resources */,
+				D39B7EFD1CB35DD600C45682 /* 雷达@2x.png in Resources */,
 				D30037391CABF01F0029B9C0 /* Localizable.strings in Resources */,
+				D39B7EE61CB35DD600C45682 /* 成功@3x.png in Resources */,
+				D39B7EF61CB35DD600C45682 /* 设备大@3x.png in Resources */,
+				D39B7EE11CB35DD600C45682 /* 光@2x.png in Resources */,
+				D39B7EE51CB35DD600C45682 /* 成功@2x.png in Resources */,
+				D39B7F151CB3820000C45682 /* 按下@3x.png in Resources */,
+				D39B7EF91CB35DD600C45682 /* 进入@2x.png in Resources */,
+				D39B7F141CB3820000C45682 /* 按下@2x.png in Resources */,
+				D39B7EEB1CB35DD600C45682 /* 按钮底部@2x.png in Resources */,
 				D30037071CABE8400029B9C0 /* Info.plist in Resources */,
+				D39B7F0B1CB3777100C45682 /* 背景b@3x.png in Resources */,
+				D39B7EE41CB35DD600C45682 /* 动画1@3x.png in Resources */,
+				D39B7EFC1CB35DD600C45682 /* 通知@3x.png in Resources */,
 				D300374A1CABF3B30029B9C0 /* qr_scan_line@2x.png in Resources */,
+				D39B7EDF1CB35DD600C45682 /* logo@2x.png in Resources */,
+				D39B7EE31CB35DD600C45682 /* 动画1@2x.png in Resources */,
+				D39B7EE01CB35DD600C45682 /* logo@3x.png in Resources */,
 				D390A5D81CAA392C00F3442B /* Main.storyboard in Resources */,
+				D39B7EFA1CB35DD600C45682 /* 进入@3x.png in Resources */,
+				D39B7F0A1CB3777100C45682 /* 背景b@2x.png in Resources */,
+				D39B7F121CB3820000C45682 /* 按@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,6 +569,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D390A5D51CAA392C00F3442B /* ViewController.m in Sources */,
+				D37BEB6F1CB3E0810057BD3E /* Dialog.m in Sources */,
+				D37BEB741CB3E0A60057BD3E /* HomeSetTableViewController.swift in Sources */,
 				D390A5D21CAA392C00F3442B /* AppDelegate.m in Sources */,
 				D300374F1CAC06C20029B9C0 /* UIView+AHKit.m in Sources */,
 				D3D7EC911CABC7000067C6A6 /* QRView.m in Sources */,
@@ -394,12 +579,15 @@
 				D3D7ECA31CABD4AA0067C6A6 /* Array+Extenstion.swift in Sources */,
 				D3D7EC921CABC7000067C6A6 /* QRViewController.m in Sources */,
 				D3D7ECA91CABD4AA0067C6A6 /* UIImage+DrawView.swift in Sources */,
+				D37BEB771CB3E0E30057BD3E /* HomeTableViewCell.swift in Sources */,
 				D3D7ECA51CABD4AA0067C6A6 /* KeyInfo.m in Sources */,
 				D3D7EC811CABAF660067C6A6 /* GuideViewController.swift in Sources */,
+				D37BEB751CB3E0A60057BD3E /* HomeViewController.swift in Sources */,
+				D37BEB791CB3E1460057BD3E /* HomeSetTableViewCell.swift in Sources */,
 				D3D7ECA81CABD4AA0067C6A6 /* UIColor+greenbaby.m in Sources */,
+				D39B7F011CB360C900C45682 /* SearchViewController.swift in Sources */,
 				D300375D1CACC1CE0029B9C0 /* DialogViewController.swift in Sources */,
 				D3D7ECA61CABD4AA0067C6A6 /* NSString+scisky.m in Sources */,
-				D30037571CAC0FE30029B9C0 /* Dialog.m in Sources */,
 				D3D7ECA41CABD4AA0067C6A6 /* EasyOptionalUnwrapping.swift in Sources */,
 				D30037531CAC0C370029B9C0 /* LocalizedString.m in Sources */,
 				D3D7ECA71CABD4AA0067C6A6 /* SwiftyJSON.swift in Sources */,
@@ -435,10 +623,10 @@
 		D390A5D61CAA392C00F3442B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D30037361CABEF360029B9C0 /* zh-Hant */,
 				D30037401CABF10E0029B9C0 /* Base */,
-				D30037421CABF11F0029B9C0 /* zh-Hans */,
-				D300374B1CAC04C60029B9C0 /* en */,
+				D37BEB5E1CB388620057BD3E /* zh-Hant */,
+				D37BEB601CB388660057BD3E /* en */,
+				D37BEB621CB388680057BD3E /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			path = Howare;

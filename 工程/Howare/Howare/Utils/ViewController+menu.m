@@ -17,6 +17,11 @@
         [self.revealViewController revealToggle:sender];
     }
 }
+
+-(UIStatusBarStyle)preferredStatusBarStyle
+{
+    return UIStatusBarStyleLightContent;
+}
 @end
 
 
